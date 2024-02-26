@@ -1,0 +1,191 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style3.css">
+  
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>C</span>orey <span>D</span>unn</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#skills" data-after="skills">skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Corey Dunn <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Sk<span>i</span>lls</h1>
+        <p>Welcome to the Skills section of my portfolio! Here, you'll discover the core competencies that I bring to the table, honed through rigorous academic training and practical experience across various projects. Each skill highlighted below is backed by tangible projects and challenges I've tackled, reflecting my commitment to continuous learning and excellence in the field of computer science and data analysis.!</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Object-Oriented Programming</h2>
+          <p>My foundation in OOP principles is solidified through extensive use of Python and C++, enabling me to develop scalable and maintainable software solutions. For instance, in the 'Alien Invasion' game project, I leveraged Python's OOP capabilities to design game entities as objects, facilitating easier modifications and enhancements.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Data Analysis and Visualization</h2>
+          <p>I possess a strong ability to transform raw data into actionable insights. This is exemplified in my data visualization project, where I extracted and analyzed data from Excel, employing Pandas for data manipulation and Matplotlib for creating insightful visualizations. This skill set enables me to uncover trends, patterns, and anomalies within complex datasets, driving informed decision-making processes.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>SQL Database Management</h2>
+          <p>My proficiency in SQL allows me to efficiently manage, query, and manipulate databases to support data-driven projects and applications. By constructing and executing complex SQL queries, I can review data profiling results to discover semantics and patterns, a skill crucial for the data analysis and management tasks I've undertaken in various projects, including my role as a Data Analyst Intern.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Project Management</h2>
+          <p>My experience as a Project Assistant and Data Analyst Intern has equipped me with the ability to oversee projects from inception to completion, ensuring they meet all objectives within the stipulated timelines and budgets. This includes conducting special projects with multiple Project Leads, analyzing project performance, and identifying improvement areas, showcasing my capability to lead, organize, and execute complex projects efficiently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Alien Invasion Game</h2>
+            <p>Developed an engaging 'Alien Invasion' game using Python and Pygame as a personal project to enhance my skills in object-oriented programming, game physics, and user interface design. This project allowed me to apply theoretical knowledge in a practical, fun, and interactive way!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Data Visualization Project</h2>
+            <p>Implemented a data visualization project to demonstrate my proficiency in data manipulation and graphical data representation. This project involved extracting data from Excel using Python and Pandas, and creating insightful visualizations with Matplotlib!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="resume ss.png" alt="png">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2></h2>
+        <p>Each of these skills is a testament to my dedication to mastering the craft of computer science and data analysis. They are not just tools in my arsenal but are integral to my approach in solving problems, innovating solutions, and contributing value in my professional endeavors.!</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 205 738 1821</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>cdunn4847@gmail.com</h2>
+            <h2>cdunn11@stu.jsu.edu</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Birmingham, AL</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>C</span>orey <span>D</span>unn</h1>
+      </div>
+    
+        </div>
+      </div>
+      <p>Copyright © 2024 Corey. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
